@@ -91,7 +91,7 @@
     - 保存文件夹的包模型。
     - 保存文件夹的包动画。（可选，如果你想在 blender 中加载动画。）
 13. （NX）在顶部栏点击 `设置`。
-14. 在侧边栏将网格格式更改为 glTF 2.0 (binary)
+14. 在侧边栏'Models'将网格格式'Mesh Format'更改为 glTF 2.0 (binary)
 15. 右键点击 `pla603_hero_union` 文件夹，然后：
     - 保存文件夹的包模型。
 16. 输出将在 `FModel 文件夹/Output/Exports/Project`。
