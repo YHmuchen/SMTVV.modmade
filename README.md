@@ -2,6 +2,8 @@
 
 mugenrei的SMTVV mod制作教程中文版
 
+原文链接 [mugenrei.github.io wiki!](https://github.com/mugenrei/mugenrei.github.io/wiki)
+
 ## 目录
 
 ### 基础流程
@@ -19,5 +21,5 @@ mugenrei的SMTVV mod制作教程中文版
 
 ---
 
-翻译已获得原作者「mugenrei」的授权  
+翻译已获得原作者 [mugenrei](https://github.com/mugenrei) 的授权  
 翻译者：[YHmuchen](https://github.com/YHmuchen)
