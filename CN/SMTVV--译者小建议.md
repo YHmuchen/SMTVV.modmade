@@ -1,1 +1,1 @@
-https://github.com/YHmuchen/SMTVV.modmade/blob/main/imgs/texturestips1.png?raw=true
+![贴图建议](../imgs/texturestips1.png)
