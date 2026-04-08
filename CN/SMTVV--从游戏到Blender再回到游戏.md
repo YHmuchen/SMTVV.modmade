@@ -91,7 +91,7 @@
     - 保存文件夹的包模型。
     - 保存文件夹的包动画。（可选，如果你想在 blender 中加载动画。）
 13. （NX）在顶部栏点击 `设置`。
-14. 在侧边栏'Models'将网格格式'Mesh Format'更改为 glTF 2.0 (binary)
+14. 在侧边栏 `Models` 将网格格式 `Mesh Format` 更改为 glTF 2.0 (binary)
 15. 右键点击 `pla603_hero_union` 文件夹，然后：
     - 保存文件夹的包模型。
 16. 输出将在 `FModel 文件夹/Output/Exports/Project`。
@@ -127,7 +127,7 @@
 1. 选择骨架内的网格并进入**编辑模式**。
 2. **进行一些编辑**，你可以只需移动一些顶点。
 
-![虚拟编辑](https://user-images.githubusercontent.com/31487005/192072423-72e30c6-483e-48cb-a140-beab25b5910e.png)
+![虚拟编辑](../imgs/5.2Bianji.png)
 
 3. 或者你可以进入 Blender 的雕刻模式选项卡试一试。
 4. 进入**雕刻选项卡**[1]，然后展开你的**骨架对象**[2]，**选择网格**[3] 并进入**雕刻模式[4]**。
@@ -172,7 +172,7 @@
 
 1. 勾选这些导入设置：**Use T0 As Ref Pose**、**Import Normals and Tangents**。
 
-![导入设置](https://user-images.githubusercontent.com/31487005/192072789-174f671d-0c3a-47f6-8665-6ede0f2dd4b5.png)
+![导入设置](../imgs/fbxDaoru.png)
 
 ---
 
@@ -201,7 +201,7 @@
 ## 步骤 9.2：设置物理资源（修复相机卡入身体）
 - 这是主角 Pla603 的数值，其他角色：[学习如何获取它们。](https://github.com/mugenrei/mugenrei.github.io/wiki/SMTVV-%E2%80%90-Making-the-character's-PhAT)
 1. 在 **Mesh 文件夹** 将 `SK_pla603_PhysicsAsset` 重命名为 `SK_pla603_PhAT` 并双击打开它。
-2. 在 `骨架树` 侧边栏中，选择任意骨骼，按 `CTRL + A` 全选然后取消选择 `b_pelvis` 骨骼。
+2. 在 `骨架树` 侧边栏中，选择任意骨骼，按 `CTRL + A` 全选然后取消选择 `b_pelvis` 骨骼。（ 用CTRL + A可能会无响应一阵子，用点击第二个然后SHIFT + END的方式更流畅 ）
 3. 右键点击选中内容并选择 `删除`。
 4. 选择 `b_pelvis` 骨骼，在右侧选项卡的详情中：
     - 在**碰撞**下将**碰撞响应**更改为 `Disabled`。
@@ -211,6 +211,9 @@
         - 将中心的 Y 设置为 `90`
         - 将**半径**设置为 `70`
         - 将**长度**设置为 `70`
+
+![物理](../imgs/Wuli.png)
+
 5. 关闭 `SK_pla603_PhAT` 窗口。
 
 3. 转到 `文件 > 为 Windows 烹饪内容`。
